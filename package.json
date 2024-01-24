@@ -1,20 +1,21 @@
 {
   "name": "toml-editor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
-  "repository": "github.com/ciiiii/toml-editor",
-  "author": "ciii",
+  "repository": "github.com/sandstromviktor/toml-editor",
+  "author": "ciii/sandstromviktor",
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "^14.11.7",
+    "@types/node": "^18.11.18",
     "tslint": "^6.1.3",
-    "typescript": "^4.0.3"
+    "typescript": "^4.9.4"
   },
   "scripts": {
     "build": "tsc"
   },
   "dependencies": {
-    "@actions/core": "^1.2.6",
+    "@actions/core": "^1.10.0",
     "@iarna/toml": "^2.2.5"
   }
 }
+

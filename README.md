@@ -1,4 +1,8 @@
 # toml-editor
+## Note
+I did not create this, but i really need it. The original repo can be found [here](https://github.com/ciiiii/toml-editor). 
+It seems to no longer be maintained. This repo updates dependencies and allows you to use a working version of toml editor
+##
 
 This is a Github action, you can use it to edit your toml file. Read more about those here:
 [https://developer.github.com/actions/](https://developer.github.com/actions/)
@@ -9,7 +13,7 @@ This is a Github action, you can use it to edit your toml file. Read more about 
 
 ```yaml
 - name: Edit Toml
-  uses: ciiiii/toml-editor@1.0.0
+  uses: sandstromviktor/toml-editor@1.0.1
   with:
     file: "file/path/xx.toml"
     key: "a.b.c"
