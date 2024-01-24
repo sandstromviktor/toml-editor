@@ -1,6 +1,6 @@
-name: "toml editor"
-description: "edit a toml file"
-author: "ciii"
+name: "toml editor 2"
+description: "This is an updated version of ciiiii/toml-editor"
+author: "ciii/sandstromviktor"
 branding:
   icon: "file"
   color: "blue"

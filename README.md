@@ -13,7 +13,7 @@ This is a Github action, you can use it to edit your toml file. Read more about 
 
 ```yaml
 - name: Edit Toml
-  uses: sandstromviktor/toml-editor@1.0.1
+  uses: sandstromviktor/toml-editor@2.0.0
   with:
     file: "file/path/xx.toml"
     key: "a.b.c"
